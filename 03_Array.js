@@ -1,3 +1,4 @@
+const { Logger } = require("mongodb");
 
 const myArr =[0,1,2,3,4,5]
 //console.table(myArr);
@@ -26,13 +27,38 @@ const myArr =[0,1,2,3,4,5]
 // slice , splice
 
 
-console.log('A' , myArr);
+// console.log('A' , myArr);
 
 const myn1 = myArr.slice(1,3);
-console.log(myn1);
-console.log('B', myArr);
+// console.log(myn1);
+// console.log('B', myArr);
 
 
 const myn2 = myArr.splice(1,3);
-console.log('c',myArr);
-console.log(myn2);
+// console.log('c',myArr);
+// console.log(myn2);
+
+
+const marvel_heros =["thor", 'Ironman','spiderman']
+const dc=['superman','flash','batman']
+
+// marvel_heros.push(dc);
+
+// not good for coding and practice
+// console.log(marvel_heros);
+
+// console.log(marvel_heros[3][0]);
+
+
+// we can use another method to add two array is concatenate
+
+const allHeros =marvel_heros.concat(dc)
+// console.log(allHeros);
+
+
+// another method which is most used and easy to use  (spread)
+
+const allHerosSpread = [...marvel_heros, ...dc]
+// console.log(allHerosSpread)
+
+
