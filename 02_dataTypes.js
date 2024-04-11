@@ -190,4 +190,16 @@ const hundreds =10000000;
 // *********************** Maths  Methods ********************
 
 
+// console.log(Math.abs(-50)); // returns absolute value of a given number
+// console.log(Math.ceil(78.3)); //returns the smallest integer greater than or equal to a
+// console.log(Math.floor(78.3)); // returns the largest integer less than or equal to a
+// console.log(Math.round(78.3)) // rounds the number to the nearest integer, optionally to an integer with decimals
+console.log(Math.random()); //
+console.log((Math.random()*10)+1);
+console.log(Math.floor(Math.random()*10) + 1);
+
+const min=10;
+const max=20;
+
+console.log(Math.floor(Math.random() * (max-min + 1)) + min);
 
