@@ -16,4 +16,8 @@ let myMail ="ankit@google.com";
 
 var myPassword='123456';
 
+myMail="ak@ak.com"
+myPassword='87945'
+console.table([myName,myMail,myPassword])
+
 
