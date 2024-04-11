@@ -29,6 +29,7 @@ const myArr =[0,1,2,3,4,5]
 
 // console.log('A' , myArr);
 
+<<<<<<< HEAD
 const myn1 = myArr.slice(1,3);
 // console.log(myn1);
 // console.log('B', myArr);
@@ -62,3 +63,13 @@ const allHerosSpread = [...marvel_heros, ...dc]
 // console.log(allHerosSpread)
 
 
+=======
+const myn1 = myArr.slice(1,3); // it does not maupilate the original array and it excludes last value
+console.log(myn1);
+console.log('B', myArr);
+
+
+const myn2 = myArr.splice(1,3); // it manipulate the original array and it includes the last value
+console.log('c',myArr);
+console.log(myn2);
+>>>>>>> 367046481ffd56e762913235cf256cf90f0c727c
