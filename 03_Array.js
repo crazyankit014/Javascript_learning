@@ -15,5 +15,24 @@ const myArr =[0,1,2,3,4,5]
 
 //console.log(myArr); // [0, 1, 2, 3, 4,  5, 6]
 
-console.log(myArr.indexOf(3)); // return the index position of a specific element
-console.log(myArr.includes(9));
+// console.log(myArr.indexOf(3)); // return the index position of a specific element
+// console.log(myArr.includes(9));
+
+// const newArr = myArr.join()   // convert array object in string
+// console.log( typeof myArr); // type of object 
+// console.log( typeof newArr); // typeof string
+
+
+// slice , splice
+
+
+console.log('A' , myArr);
+
+const myn1 = myArr.slice(1,3);
+console.log(myn1);
+console.log('B', myArr);
+
+
+const myn2 = myArr.splice(1,3);
+console.log('c',myArr);
+console.log(myn2);
