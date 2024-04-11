@@ -194,12 +194,50 @@ const hundreds =10000000;
 // console.log(Math.ceil(78.3)); //returns the smallest integer greater than or equal to a
 // console.log(Math.floor(78.3)); // returns the largest integer less than or equal to a
 // console.log(Math.round(78.3)) // rounds the number to the nearest integer, optionally to an integer with decimals
-console.log(Math.random()); //
-console.log((Math.random()*10)+1);
-console.log(Math.floor(Math.random()*10) + 1);
+
+
+
+// console.log(Math.random()); 
+// console.log((Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10) + 1);
 
 const min=10;
 const max=20;
 
-console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+//console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+
+
+
+
+// ********************* Date and time ********************
+
+
+ let myDate= new Date();
+//  console.log(myDate);
+//  console.log(myDate.getDay()); // it will return day of week [0-6]
+//  console.log(myDate.getDate()); //it will return
+
+// console.log(myDate.toString());
+// console.log(myDate.toLocaleString());
+
+
+// console.log(typeof myDate);
+
+let myNewDate = new  Date(2000,10,14);
+// console.log(myNewDate.toLocaleString());
+// console.log(myNewDate.toDateString());
+
+// ******* timestamp in js to find accurate time  uses  in quiz , poll etc*************
+
+
+let myTimeStamp = Date.now();
+
+// console.log(myTimeStamp);
+// console.log(myNewDate.getTime());  // date in millisecond
+
+//console.log(Math.floor(Date.now()/1000));
+
+
+
+
 
